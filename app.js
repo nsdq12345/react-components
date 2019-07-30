@@ -1,20 +1,4 @@
 // TODO
-// var App = () => (
-//     <GroceryList groceryList={['Cucumber', 'Kale']} />
-// );
-
-// var GroceryList = (props) => {
-//   var onGroceryListClick = (event) => {
-//       console.log('I got clicked');
-//   };
-//   return (
-//     <ul>
-//         <li onClick={onGroceryListClick}>{props.groceryList[0]}</li>
-//         <li>{props.groceryList[1]}</li>
-//     </ul>
-//   );
-// }
-
 var App = () => (
     <GroceryList groceryList={['Cucumber', 'Kale']} />
 );
@@ -51,19 +35,3 @@ class GroceryListItem extends React.Component {
 
 ReactDOM.render(<App />, document.getElementById("app"));
 
-/*
-var TodoList = (props) => (
-    <ul>
-      <li>{props.Cucumber}</li>
-      <li>{props.todos[1]}</li>
-      <li>{props.todos[2]}</li>
-    </ul>
-  );
-  
-  var App = () => (
-    <div>
-      <h2>My Todo List</h2>
-      <TodoList GroceryList={['Learn React', 'Crush Recast.ly', 'Maybe sleep']}/> // Here we are creating an instance of the `TodoList` component
-    </div>
-  );
-*/
